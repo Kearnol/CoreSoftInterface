@@ -7,6 +7,9 @@ public class GorillaTest {
 		g.throwSomething("rock").throwSomething("coconut").throwSomething("pebble");
 		g.eatBananas().eatBananas();
 		g.climb();
+		
+		Bat b = new Bat();
+		b.attackTown().attackTown().attackTown().eatHumans().eatHumans().fly().fly();
 	}
 
 }

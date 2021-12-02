@@ -10,16 +10,20 @@ public class Gorilla extends Mammal {
 		System.out.println("Energy Level = " + energyLevel);
 		return this;
 	}
+	
 	public Gorilla eatBananas() {
 		System.out.println("The Gorilla sits back -- dang that banana was good");
 		energyLevel += 10;
 		System.out.println("Energy Level = " + energyLevel);
 		return this;
 	}
+	
 	public Gorilla climb() {
 		System.out.println("The Gorilla climbs a tree");
 		energyLevel -= 10;
 		System.out.println("Energy Level = " + energyLevel);
 		return this;
 	}
+	
+	
 }
